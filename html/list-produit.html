@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TravailFinal</title>
+    <link rel="stylesheet" href="../scss/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <header>
+        <nav class="header-container">
+            <div class="navbar">
+                <div class="container nav-container">
+                    <input class="checkbox" type="checkbox" name="" id="" />
+                    <div class="hamburger-lines">
+                        <span class="line line1"></span>
+                        <span class="line line2"></span>
+                        <span class="line line3"></span>
+                    </div>
+                    <div></div>
+                    <div class="menu-items">
+                        <li><a href="../html/accueil.html">Accueil</a></li>
+                        <li><a href="../html/list-produit.html">Produits</a></li>
+                        <li><a href="../html/contact.html">Contact</a></li>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <div class="main-header">
+                    <div>
+                        <a href="../html/accueil.html"><img src="../img/inforshop.png" class="inforshop-logo"></img></a>
+                    </div>
+                    <div class="compte-panier">
+                        <div class="compte">
+                            <a href="../html/connexion.html">
+                                <div class="img-compte-panier"><i class="fa fa-user" aria-hidden="true"></i></div>
+                            </a>
+                            <a href="../html/connexion.html">Compte</a>
+                        </div>
+                        <div class="panier">
+                            <a href="../html/panier.html">
+                                <div class="img-compte-panier"><i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                                </div>
+                            </a>
+                            <a href="../html/panier.html">Panier</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="menu-nav">
+                    <li><a href="../html/accueil.html">Accueil</a></li>
+                    <li><a href="../html/list-produit.html">Produits</a></li>
+                    <li><a href="../html/contact.html">Contact</a></li>
+                </div>
+            </div>
+
+            <div>
+                <form class="main-search-bar">
+                    <input type="text" class="search-bar" placeholder="Chercher un produit ..." name="recherche">
+                    <button type="submit" class="search-bar-button"><i class="fa fa-search"
+                            aria-hidden="true"></i></button>
+                </form>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="home-nav">
+            <a href="../html/accueil.html"><i class="fa fa-home" aria-hidden="true"></i></a>
+            <p>></p>
+            <a>Pc de bureau</a>
+        </div>
+
+        <div class="main-content-filter">
+            <div class="filter">
+                <form class="marques-filter">
+                    <a>Pc de bureau</a>
+                    <h2>Filter</h2>
+                    <h3>Marques</h3>
+                    <input type="checkbox" id="marques" name="razer" value="Razer">
+                    <label for="razer">Razer</label><br>
+                    <input type="checkbox" id="marques" name="logitech" value="Logitech">
+                    <label for="logitech">Logitech</label><br>
+                    <input type="checkbox" id="marques" name="hp" value="HP">
+                    <label for="hp">HP</label><br>
+                </form>
+                <form class="prix-filter">
+                    <h1>Prix</h1>
+                    <label for="quantity">Min value:</label>
+                    <input type="number" id="min-value" name="min-value" value="0" min="0" max="99">
+                    <label for="quantity">Max value:</label>
+                    <input type="number" id="max-value" name="max-value" value="0" min="0" max="250">
+                    <label for="vol"></label>
+                    <div class="range-slider">
+                        <input type="range" class="range-bar" name="vol" value="0" min="0" max="250">
+                    </div>
+                </form>
+                <form class="marques-filter">
+                    <h3>Disponibilité</h3>
+                    <input type="checkbox" id="stock" name="stock" value="En Stock">
+                    <label for="stock">En stock</label><br>
+                </form>
+            </div>
+            <div class="list-pc">
+                <div class="numerotation">
+                    <a>1</a>
+                    <a>2</a>
+                    <a>3</a>
+                </div>
+                <div class="pc-hp">
+                    <img src="../img/hp.jpg" class="hp"></img>
+                    <a href="#">HP Pavillion Gaming</a>
+                    <p>Parfait PC pour gaming</p>
+                    <p>15 en stock</p>
+                    <div class="pc-hp-price">
+                        <p>1 750 €</p>
+                        <a href="../html/connexion.html">
+                            <button type="submit" value="Submit"><i class="fa fa-cart-plus"
+                                    aria-hidden="true"></i></button>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="pc-hp">
+                    <img src="../img/hp.jpg" class="hp"></img>
+                    <a href="#">HP Pavillion Gaming</a>
+                    <p>Parfait PC pour gaming</p>
+                    <p>15 en stock</p>
+                    <div class="pc-hp-price">
+                        <p>1 750 €</p>
+                        <a href="../html/connexion.html">
+                            <button type="submit" value="Submit"><i class="fa fa-cart-plus"
+                                    aria-hidden="true"></i></button>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="pc-hp">
+                    <img src="../img/hp.jpg" class="hp"></img>
+                    <a href="#">HP Pavillion Gaming</a>
+                    <p>Parfait PC pour gaming</p>
+                    <p>15 en stock</p>
+                    <div class="pc-hp-price">
+                        <p>1 750 €</p>
+                        <a href="../html/connexion.html">
+                            <button type="submit" value="Submit"><i class="fa fa-cart-plus"
+                                    aria-hidden="true"></i></button>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="pc-hp">
+                    <img src="../img/hp.jpg" class="hp"></img>
+                    <a href="#">HP Pavillion Gaming</a>
+                    <p>Parfait PC pour gaming</p>
+                    <p>15 en stock</p>
+                    <div class="pc-hp-price">
+                        <p>1 750 €</p>
+                        <a href="../html/connexion.html">
+                            <button type="submit" value="Submit"><i class="fa fa-cart-plus"
+                                    aria-hidden="true"></i></button>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="pc-hp">
+                    <img src="../img/hp.jpg" class="hp"></img>
+                    <a href="#">HP Pavillion Gaming</a>
+                    <p>Parfait PC pour gaming</p>
+                    <p>15 en stock</p>
+                    <div class="pc-hp-price">
+                        <p>1 750 €</p>
+                        <a href="../html/connexion.html">
+                            <button type="submit" value="Submit"><i class="fa fa-cart-plus"
+                                    aria-hidden="true"></i></button>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="pc-hp">
+                    <img src="../img/hp.jpg" class="hp"></img>
+                    <a href="#">HP Pavillion Gaming</a>
+                    <p>Parfait PC pour gaming</p>
+                    <p>15 en stock</p>
+                    <div class="pc-hp-price">
+                        <p>1 750 €</p>
+                        <a href="../html/connexion.html">
+                            <button type="submit" value="Submit"><i class="fa fa-cart-plus"
+                                    aria-hidden="true"></i></button>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="pc-hp">
+                    <img src="../img/hp.jpg" class="hp"></img>
+                    <a href="#">HP Pavillion Gaming</a>
+                    <p>Parfait PC pour gaming</p>
+                    <p>15 en stock</p>
+                    <div class="pc-hp-price">
+                        <p>1 750 €</p>
+                        <a href="../html/connexion.html">
+                            <button type="submit" value="Submit"><i class="fa fa-cart-plus"
+                                    aria-hidden="true"></i></button>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="pc-hp">
+                    <img src="../img/hp.jpg" class="hp"></img>
+                    <a href="#">HP Pavillion Gaming</a>
+                    <p>Parfait PC pour gaming</p>
+                    <p>15 en stock</p>
+                    <div class="pc-hp-price">
+                        <p>1 750 €</p>
+                        <a href="../html/connexion.html">
+                            <button type="submit" value="Submit"><i class="fa fa-cart-plus"
+                                    aria-hidden="true"></i></button>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="pc-hp">
+                    <img src="../img/hp.jpg" class="hp"></img>
+                    <a href="#">HP Pavillion Gaming</a>
+                    <p>Parfait PC pour gaming</p>
+                    <p>15 en stock</p>
+                    <div class="pc-hp-price">
+                        <p>1 750 €</p>
+                        <a href="../html/connexion.html">
+                            <button type="submit" value="Submit"><i class="fa fa-cart-plus"
+                                    aria-hidden="true"></i></button>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="pc-hp">
+                    <img src="../img/hp.jpg" class="hp"></img>
+                    <a href="#">HP Pavillion Gaming</a>
+                    <p>Parfait PC pour gaming</p>
+                    <p>15 en stock</p>
+                    <div class="pc-hp-price">
+                        <p>1 750 €</p>
+                        <a href="../html/connexion.html">
+                            <button type="submit" value="Submit"><i class="fa fa-cart-plus"
+                                    aria-hidden="true"></i></button>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="pc-hp">
+                    <img src="../img/hp.jpg" class="hp"></img>
+                    <a href="#">HP Pavillion Gaming</a>
+                    <p>Parfait PC pour gaming</p>
+                    <p>15 en stock</p>
+                    <div class="pc-hp-price">
+                        <p>1 750 €</p>
+                        <a href="../html/connexion.html">
+                            <button type="submit" value="Submit"><i class="fa fa-cart-plus"
+                                    aria-hidden="true"></i></button>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="pc-hp">
+                    <img src="../img/hp.jpg" class="hp"></img>
+                    <a href="#">HP Pavillion Gaming</a>
+                    <p>Parfait PC pour gaming</p>
+                    <p>15 en stock</p>
+                    <div class="pc-hp-price">
+                        <p>1 750 €</p>
+                        <a href="../html/connexion.html">
+                            <button type="submit" value="Submit"><i class="fa fa-cart-plus"
+                                    aria-hidden="true"></i></button>
+                        </a>
+                    </div>
+                </div>
+                <div class="numerotation">
+                    <a>1</a>
+                    <a>2</a>
+                    <a>3</a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="main-footer">
+            <p>&copy; Inforshop.store & site by <a href="#">ISL SCRL</a></p>
+        </div>
+    </footer>
+</body>
+
+</html>

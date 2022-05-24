@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TravailFinal</title>
+    <link rel="stylesheet" href="../scss/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <header>
+        <nav class="header-container">
+            <div class="navbar">
+                <div class="container nav-container">
+                    <input class="checkbox" type="checkbox" name="" id="" />
+                    <div class="hamburger-lines">
+                        <span class="line line1"></span>
+                        <span class="line line2"></span>
+                        <span class="line line3"></span>
+                    </div>
+                    <div></div>
+                    <div class="menu-items">
+                        <li><a href="../html/accueil.html">Accueil</a></li>
+                        <li><a href="../html/list-produit.html">Produits</a></li>
+                        <li><a href="../html/contact.html">Contact</a></li>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <div class="main-header">
+                    <div>
+                        <a href="../html/accueil.html"><img src="../img/inforshop.png" class="inforshop-logo"></img></a>
+                    </div>
+                    <div class="compte-panier">
+                        <div class="compte">
+                            <a href="../html/connexion.html">
+                                <div class="img-compte-panier"><i class="fa fa-user" aria-hidden="true"></i></div>
+                            </a>
+                            <a href="../html/connexion.html">Compte</a>
+                        </div>
+                        <div class="panier">
+                            <a href="../html/panier.html">
+                                <div class="img-compte-panier"><i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                                </div>
+                            </a>
+                            <a href="../html/panier.html">Panier</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="menu-nav">
+                    <li><a href="../html/accueil.html">Accueil</a></li>
+                    <li><a href="../html/list-produit.html">Produits</a></li>
+                    <li><a href="../html/contact.html">Contact</a></li>
+                </div>
+            </div>
+
+            <div>
+                <form class="main-search-bar">
+                    <input type="text" class="search-bar" placeholder="Chercher un produit ..." name="recherche">
+                    <button type="submit" class="search-bar-button"><i class="fa fa-search"
+                            aria-hidden="true"></i></button>
+                </form>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="home-nav">
+            <a href="../html/accueil.html"><i class="fa fa-home" aria-hidden="true"></i></a>
+            <p>></p>
+            <a class="mon-panier" href="../html/panier.html">Mon panier</a>
+            <p>></p>
+            <a>Commande</a>
+        </div>
+        <div class="main-content">
+            <div>
+                <h1>Commande</h1>
+                <h1>Adresse de livraison</h1>
+            </div>
+            <div>
+                <form>
+                    <div class="main-form-1">
+                        <div class="rue-numero-localite-cpostal">
+                            <div class="contact-form">
+                                <label for="rue">Rue*</label>
+                                <input type="text" id="rue" name="Rue" placeholder="Rue"><br>
+                                <i class="fa fa-home" aria-hidden="true"></i>
+                            </div>
+                            <div class="contact-form">
+                                <label for="nmaison">Numéro de maison*</label>
+                                <input type="text" id="nmaison" name="Numéro de maison"
+                                    placeholder="Numéro de maison"><br>
+                                <i class="fa fa-tag" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                        <div class="rue-numero-localite-cpostal">
+                            <div class="contact-form">
+                                <label for="localite">Localité*</label>
+                                <input type="text" id="localite" name="Localité" placeholder="Localité"><br>
+                                <i class="fa fa-industry" aria-hidden="true"></i>
+                            </div>
+                            <div class="contact-form">
+                                <label for="cpostal">Code postal*</label>
+                                <input type="text" id="cpostal" name="Code postal" placeholder="Code postal"><br>
+                                <i class="fa fa-industry" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                        <div class="contact-form">
+                            <label for="pays-select">Pays*</label>
+                            <select name="pays" id="pays-select">
+                                <option value="">Pays</option>
+                                <option value="allemagne">Allemagne</option>
+                                <option value="belgique">Belgique</option>
+                                <option value="danemark">Danemark</option>
+                                <option value="espagne">Espagne</option>
+                                <option value="france">France</option>
+                                <option value="italie">Italie</option>
+                                <option value="pays-bas">Pays-bas</option>
+                                <option value="Pologne">Pologne</option>
+                                <option value="suede">Suède</option>
+                            </select>
+                            <i class="fa fa-globe" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                </form>
+                <h1>Adresses de facturation</h1>
+                <form>
+                    <div class="main-form-1">
+                        <div class="rue-numero-localite-cpostal">
+                            <div class="contact-form">
+                                <label for="rue">Rue*</label>
+                                <input type="text" id="rue" name="Rue" placeholder="Rue"><br>
+                                <i class="fa fa-home" aria-hidden="true"></i>
+                            </div>
+                            <div class="contact-form">
+                                <label for="nmaison">Numéro de maison*</label>
+                                <input type="text" id="nmaison" name="Numéro de maison"
+                                    placeholder="Numéro de maison"><br>
+                                <i class="fa fa-tag" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                        <div class="rue-numero-localite-cpostal">
+                            <div class="contact-form">
+                                <label for="localite">Localité*</label>
+                                <input type="text" id="localite" name="Localité" placeholder="Localité"><br>
+                                <i class="fa fa-industry" aria-hidden="true"></i>
+                            </div>
+                            <div class="contact-form">
+                                <label for="cpostal">Code postal*</label>
+                                <input type="text" id="cpostal" name="Code postal" placeholder="Code postal"><br>
+                                <i class="fa fa-industry" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                        <div class="contact-form">
+                            <label for="pays-select">Pays*</label>
+                            <select name="pays" id="pays-select">
+                                <option value="">Pays</option>
+                                <option value="allemagne">Allemagne</option>
+                                <option value="belgique">Belgique</option>
+                                <option value="danemark">Danemark</option>
+                                <option value="espagne">Espagne</option>
+                                <option value="france">France</option>
+                                <option value="italie">Italie</option>
+                                <option value="pays-bas">Pays-bas</option>
+                                <option value="Pologne">Pologne</option>
+                                <option value="suede">Suède</option>
+                            </select>
+                            <i class="fa fa-globe" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                </form>
+                <form>
+                    <div class="main-form-3">
+                        <h1>Moyen de paiement</h1>
+                        <label for="paiement-select">Moyen de paiement*</label>
+                        <select name="mpaiement" id="mpaiement" required>
+                            <option value="">Moyen de paiement</option>
+                            <option value="cbancaire">Carte bancaire</option>
+                            <option value="paypal">PayPal</option>
+                            <option value="vbancaire">Virement bancaire</option>
+                            <option value="ccadeau">Carte cadeau</option>
+                        </select>
+                    </div>
+                    <button class="valider"><i class="fa fa-floppy-o" aria-hidden="true"></i>Valider</button>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="main-footer">
+            <p>&copy; Inforshop.store & site by <a href="#">ISL SCRL</a></p>
+        </div>
+    </footer>
+</body>
+
+</html>

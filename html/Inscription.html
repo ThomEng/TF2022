@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TravailFinal</title>
+    <link rel="stylesheet" href="../scss/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <header>
+        <nav class="header-container">
+            <div class="navbar">
+                <div class="container nav-container">
+                    <input class="checkbox" type="checkbox" name="" id="" />
+                    <div class="hamburger-lines">
+                        <span class="line line1"></span>
+                        <span class="line line2"></span>
+                        <span class="line line3"></span>
+                    </div>
+                    <div></div>
+                    <div class="menu-items">
+                        <li><a href="../html/accueil.html">Accueil</a></li>
+                        <li><a href="../html/list-produit.html">Produits</a></li>
+                        <li><a href="../html/contact.html">Contact</a></li>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <div class="main-header">
+                    <div>
+                        <a href="../html/accueil.html"><img src="../img/inforshop.png" class="inforshop-logo"></img></a>
+                    </div>
+                    <div class="compte-panier">
+                        <div class="compte">
+                            <a href="../html/connexion.html">
+                                <div class="img-compte-panier"><i class="fa fa-user" aria-hidden="true"></i></div>
+                            </a>
+                            <a href="../html/connexion.html">Compte</a>
+                        </div>
+                        <div class="panier">
+                            <a href="../html/panier.html">
+                                <div class="img-compte-panier"><i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                                </div>
+                            </a>
+                            <a href="../html/panier.html">Panier</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="menu-nav">
+                    <li><a href="../html/accueil.html">Accueil</a></li>
+                    <li><a href="../html/list-produit.html">Produits</a></li>
+                    <li><a href="../html/contact.html">Contact</a></li>
+                </div>
+            </div>
+
+            <div>
+                <form class="main-search-bar">
+                    <input type="text" class="search-bar" placeholder="Chercher un produit ..." name="recherche">
+                    <button type="submit" class="search-bar-button"><i class="fa fa-search"
+                            aria-hidden="true"></i></button>
+                </form>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="home-nav">
+            <a href="../html/accueil.html"><i class="fa fa-home" aria-hidden="true"></i></a>
+            <p>></p>
+            <a>Inscription</a>
+        </div>
+        <div class="main-content">
+            <h3>Inscription</h3>
+            <form>
+                <div class="main-form-1">
+                    <label for="email">Email*</label><br>
+                    <input type="email" id="email" name="email" required><br>
+                    <div class="password-form">
+                        <div>
+                            <label for="mdp">Mot de passe*</label><br>
+                            <input type="password" id="mdp" name="mdp" required><br>
+                        </div>
+                        <div>
+                            <label for="mdp">Mot de passe*</label><br>
+                            <input type="password" id="mdp" name="mdp" required><br>
+                        </div>
+                    </div>
+                    <div class="nom-prenom-form">
+                        <div>
+                            <label for="prenom">Prénom*</label><br>
+                            <input type="text" id="prenom" name="prenom" required><br>
+                        </div>
+                        <div>
+                            <label for="nom">Nom*</label><br>
+                            <input type="text" id="nom" name="nom" required><br>
+                        </div>
+                    </div>
+                    <label>Date de naissance*</label><br>
+                    <input type="Date" name="birthdate" id="birthdate" required><br>
+                </div>
+                <div class="condition-checkbox">
+                    <input name="condition" id="condition" type="checkbox" required>
+                    <label for="condition"> J'ai lù et j'accepte les CGV ...* </label><br>
+                </div>
+                <button class="check-button"><i class="fa fa-check" aria-hidden="true"></i>Inscription</button>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <div class="main-footer">
+            <p>&copy; Inforshop.store & site by <a href="#">ISL SCRL</a></p>
+        </div>
+    </footer>
+</body>
+
+</html>
